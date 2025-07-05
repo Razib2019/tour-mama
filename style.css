@@ -2,10 +2,11 @@
     font-family: "Plus Jakarta Sans", sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    width: 100%;
+    max-width: 100%;
     background: linear-gradient(177deg, #FFF 0.28%, #EBDCFF 99.93%);
     min-height: 100vh;
 }
@@ -46,7 +47,7 @@ body{
 .banner-container{
     display: flex;
     width: 1260px;
-    height: 638px;
+    /* height: 638px; */
     padding: 20px 30px;
     justify-content: space-between;
     align-items: center;
