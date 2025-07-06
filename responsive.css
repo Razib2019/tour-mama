@@ -241,6 +241,26 @@
 }
 /* Covering Countries Styles End*/
 
+/* Tourist Review Styles Start */
+.tourist-review-container{
+    margin-bottom: 60px;
+}
+
+.tourist-review-cards{
+    align-items: center;
+}
+
+.tourist-review-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.tourist-review-bottom{
+    flex-direction: column;
+    gap: 10px;
+}
+/* Tourist Review Styles End */
+
 }
 
 /* For Mobile Device */
@@ -374,5 +394,45 @@
     padding: 16px;
 }
 /* Covering Countries Styles End*/
+
+/* Tourist Review Styles Start */
+.tourist-review-container{
+    margin-bottom: 40px;
+}
+
+.tourist-review-cards{
+    width: 95%;
+    margin: 0px auto;
+    align-items: center;
+    gap: 16px;
+}
+
+.tourist-review-card{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.tourist-review-card > p{
+    margin-bottom: 30px;
+}
+
+.tourist-review-bottom{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name-designation h3{
+    font-size: 16px;
+}
+
+.name-designation p{
+    font-size: 14px;
+}
+
+.tourist-review-star img{
+    width: 100%;
+}
+/* Tourist Review Styles End */
 
 }
