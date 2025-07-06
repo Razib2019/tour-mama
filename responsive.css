@@ -1,7 +1,3 @@
-.hidden{
-    display: none;
-}
-
 /* For Desktop Device */
 @media screen and (max-width:1276px) and (min-width:1025px) {
 /* Universal Styles Start*/
@@ -261,6 +257,24 @@
 }
 /* Tourist Review Styles End */
 
+/* Footer Styles Start */
+.footer-container{
+    padding: 25px 0px;
+}
+.footer-content{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-icons{
+    gap: 26px;
+}
+
+.social-icons img{
+    width: 100%;
+}
+/* Footer Styles End */
+
 }
 
 /* For Mobile Device */
@@ -434,5 +448,27 @@
     width: 100%;
 }
 /* Tourist Review Styles End */
+
+/* Footer Styles Start */
+.footer-container{
+    padding: 25px 0px;
+}
+.footer-content{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-content p{
+    font-size: 14px;
+}
+
+.social-icons{
+    gap: 18px;
+}
+
+.social-icons img{
+    width: 20%;
+}
+/* Footer Styles End */
 
 }
