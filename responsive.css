@@ -4,10 +4,13 @@
 
 /* For Desktop Device */
 @media screen and (max-width:1276px) and (min-width:1025px) {
+/* Universal Styles Start*/
 .contents{
     width: 95%;
 }
+/* Universal Styles End*/
 
+/* Banner Styles Start*/
 .banner-container{
     width: 100%;
     padding: 10px 20px;
@@ -20,7 +23,9 @@
 .banner-description{
     font-size: 16px;
 }
+/* Banner Styles End*/
 
+/* Services Styles Start*/
 .card-container{
     gap: 30px;
 }
@@ -28,15 +33,20 @@
 .card{
     padding: 40px;
 }
+/* Services Styles End*/
 
 }
+
 
 /* For Laptop Device */
 @media screen and (max-width:1024px) and (min-width:769px) {
+/* Universal Styles Start*/
 .contents{
     width: 95%;
 }
+/* Universal Styles End*/
 
+/* Banner Styles Start*/
 .banner-container{
     width: 100%;
     padding: 10px 20px;
@@ -54,6 +64,9 @@
 .btn-button{
     padding: 10px 20px;
 }
+/* Banner Styles End*/
+
+/* Shared Styles Start */
 .text-title{
     font-size: 20px; 
 }
@@ -62,6 +75,10 @@
     font-size: 32px;
     margin-bottom: 50px;
 }
+/* Shared Styles End*/
+
+
+/* Services Styles Start */
 .card-container{
     gap: 20px;
 }
@@ -74,13 +91,30 @@
     font-size: 24px;
     margin: 20px 0px 10px;
 }
+/* Services Styles End */
 }
+
+
 /* For Tablet Device */
 @media screen and (max-width:768px) and (min-width:426px) {
+/* Universal Styles Start */
 .contents{
     width: 95%;
 }
+/* Universal Styles Start */
 
+/* Shared Styles Start */
+.text-title{
+    font-size: 20px; 
+}
+
+.title-reason{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+/* Shared Styles End */
+
+/* Banner Styles Start */
 .banner-container{
     width: 100%;
     flex-direction: column-reverse;
@@ -111,18 +145,11 @@
     padding: 10px 20px;
     font-size: 12px;
 }
+/* Banner Styles End */
 
+/* Services Styles Start */
 .services-container{
     margin: 60px 0px;
-}
-
-.text-title{
-    font-size: 20px; 
-}
-
-.title-reason{
-    font-size: 28px;
-    margin-bottom: 40px;
 }
 
 .card-container{
@@ -149,15 +176,59 @@
 .card-text-content p{
     font-size: 16px;
 }
+/* Services Styles Start */
+
+/* Explore the top spots of Asia Styles Start*/
+.explore-asia-container{
+    margin-bottom: 60px;
+}
+.explore-asia-card{
+    padding: 28px;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+.explore-img{
+    width: 100%;
+}
+.explore-img img{
+    width: 100%;
+}
+
+.explore-content h1{
+    font-size: 24px;
+}
+
+.explore-content p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+/* Explore the top spots of Asia Styles End*/
 
 }
 
 /* For Mobile Device */
 @media screen and (max-width:425px) {
+/* Universal Styles Start */
 .contents{
     width: 95%;
 }
+/* Universal Styles End */
 
+/* Shared Styles Start */
+.text-title{
+    font-size: 14px; 
+}
+
+.title-reason{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* Shared Styles End*/
+
+/* Banner Styles Start */
 .banner-container{
     width: 100%;
     padding: 20px;
@@ -192,18 +263,11 @@
     padding: 10px 15px;
     font-size: 12px;
 }
+/* Banner Styles End*/
 
+/* Services Styles Start */
 .services-container{
     margin: 40px 0px;
-}
-
-.text-title{
-    font-size: 14px; 
-}
-
-.title-reason{
-    font-size: 18px;
-    margin-bottom: 30px;
 }
 
 .card-container{
@@ -230,5 +294,35 @@
 .card-text-content p{
     font-size: 14px;
 }
+/* Services Styles End*/
+
+/* Explore the top spots of Asia Styles Start*/
+.explore-asia-container{
+    margin-bottom: 40px;
+}
+.explore-asia-card{
+    padding: 18px;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 18px;
+}
+.explore-img{
+    width: 100%;
+}
+.explore-img img{
+    width: 100%;
+}
+
+.explore-content h1{
+    font-size: 20px;
+}
+
+.explore-content p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+/* Explore the top spots of Asia Styles End*/
 
 }
